@@ -1,0 +1,9 @@
+/* Styles for Navbar Component */
+.navbar {
+    border-radius:0;
+    border-bottom:1px solid #888;
+}
+.navbar .navbar-brand {
+    font-size:20px;
+    font-weight:600;
+}

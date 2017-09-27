@@ -1,0 +1,7 @@
+/**
+*** JUMBOTRON STYLES
+**/
+#home-jumbo {
+    background :url("../../../assets/images/slider-bg.png") 0 100% repeat-x;
+    position: relative;
+}

@@ -1,0 +1,72 @@
+
+#footer {
+    background :url("../../../assets/images/slider-bg.png") 0 100% repeat-x;
+    /*background :url("../../../assets/images/blue-clouds.png") 0 100% repeat-x;*/
+    position: relative;
+    min-height: 300px;
+
+}
+#footer .container {
+    border-top: 1px solid #ececec;
+    padding: 20px 0 0 0;
+}
+#footer .container .row {
+    margin:30px 0;
+}
+#footer .contact-details {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#footer .contact-details .contact-icon {
+    border-radius: 5px;
+    display: inline-table;
+    height: 54px;
+    margin-right: 18px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 54px;
+    border: 1px solid #f3f3f3;   
+}
+.contact-details .contact-text {
+    align-self: center;
+}
+
+.contact-details .contact-icon i{
+    color: #666666;
+    display: table-cell;
+    font-size: 30px;
+    vertical-align: middle;
+}
+#footer .master-text-logo {
+    font-size:20px;
+    margin-bottom:20px;
+}
+#footer .row .social-icon {
+    display: inline-block;
+}
+#footer .row .social-icon ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.social-icon li {
+    display: inline-block;
+    width:40px; 
+    height:40px;
+    border-radius:20px;
+    border:1px solid #888;  
+    margin:14px;
+    padding-top:8px;
+}
+.social-icon li a {
+    color: #9c9c9c;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+#footer footer{
+    margin-bottom:10px;
+}
+#footer .footer-text {
+    font-size:14px;
+}

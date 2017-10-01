@@ -1,0 +1,35 @@
+#services .container {
+    padding:50px 0;
+}
+#services .container .row {
+    margin: 40px 0;
+}
+.service-item {
+    display :flex;
+    flex-direction : column;
+    flex-wrap : nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.service-item .item-icon {
+    display:flex;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:20px;
+}
+.icon-background-orange {
+    background-color:#ed9d62;
+}
+.icon-background-red {
+    background: #e56073;
+}
+.icon-background-blue {
+    background: #6aa2e7;
+}
+.item-icon i.fa{
+    font-size:54px;
+    color:#fff;
+}

@@ -2,6 +2,26 @@
 *** JUMBOTRON STYLES
 **/
 #home-jumbo {
-    background :url("../../../assets/images/slider-bg.png") 0 100% repeat-x;
+    /*background :url("../../../assets/images/slider-bg.png") 0 100% repeat-x;*/
+    background :url("../../../assets/images/blue-clouds.png") 0 100% repeat-x;
     position: relative;
+    min-height: 500px;
+}
+#home-jumbo .container {
+    margin-top:50px;
+}
+#home-jumbo .container .row {
+    margin: 30px 0 50px 0;
+}
+.main-jtron {
+    display : flex;
+    flex-wrap : nowrap;
+    justify-content : center;
+    align-items : center;
+}
+.silder-text {
+    flex-grow:1;
+}
+.slider-image {
+    flex-grow:1;
 }

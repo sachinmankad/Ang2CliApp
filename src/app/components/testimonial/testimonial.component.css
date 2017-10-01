@@ -1,0 +1,39 @@
+
+#tour {
+    padding:20px 0;
+    background-color: #888;
+    background :url("../../../assets/images/road-marking.png") 0 100% repeat-x;
+}
+#tour .tour-platform {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+#tour .tour-platform .tour-text {
+    align-self:center;
+}
+#tour .tour-platform .tour-guide {
+    align-self:center;
+}
+.tour-guide button {
+    margin-left:10px;
+    margin-right:25px;
+}
+.tour-guide img {
+    margin-left:70px;
+}
+
+#testimonial {
+    margin:40px 0;
+}
+#testimonial .container .row .platform {
+    margin: 30px 0 40px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: space-between;
+}
+#testimonial .container .row .platform .avathar {
+    width:100px;
+    height: 100px;
+}

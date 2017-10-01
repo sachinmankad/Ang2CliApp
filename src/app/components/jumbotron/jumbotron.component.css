@@ -22,6 +22,21 @@
 .silder-text {
     flex-grow:1;
 }
+.jbt-btn {
+    border:1px solid #32c78d;
+    color:#32c78d;
+    background: none;
+}
+.jbt-btn:hover{
+    background:#32c78d;
+    color:#fff;
+}
 .slider-image {
     flex-grow:1;
+}
+
+@media screen and (max-width : 768px) {
+    #home-jumbo {
+        min-height: 400px;
+    }
 }

@@ -1,26 +1,28 @@
 
 #tour {
     padding:20px 0;
-    background-color: #888;
-    background :url("../../../assets/images/road-marking.png") 0 100% repeat-x;
 }
 #tour .tour-platform {
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
 }
-#tour .tour-platform .tour-text {
-    align-self:center;
+.tour-notes {
+    flex-grow:1;
+    align-self: center;
 }
-#tour .tour-platform .tour-guide {
-    align-self:center;
+.tour-show {
+    flex-grow:1;
+    align-self: center;
 }
-.tour-guide button {
-    margin-left:10px;
-    margin-right:25px;
+.tour-btn {
+    border:1px solid #ed9d62;
+    color: #ed9d62;
+    background:none;
 }
-.tour-guide img {
-    margin-left:70px;
+.tour-btn:hover {
+    background: #ed9d62;
+    color:#fff;
 }
 
 #testimonial {
@@ -36,4 +38,30 @@
 #testimonial .container .row .platform .avathar {
     width:100px;
     height: 100px;
+}
+
+@media screen and (min-width:1200px){
+    #tour {
+        border:none;
+        background :url("../../../assets/images/road-marking.png") 0 100% repeat-x;
+    } 
+    .tour-btn {
+        margin-right:35px;
+    }
+    .tour-show .img {
+        margin-left:35px;
+    }
+}
+
+@media screen and (max-width:768px){
+    #tour {
+        border:1px solid #e5e5e5;
+        background:none;
+    }    
+    .tour-notes{
+        padding:15px;
+    }
+    .tour-btn {
+        margin:0 15px;
+    }
 }
